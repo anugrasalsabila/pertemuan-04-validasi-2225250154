@@ -44,4 +44,8 @@ python3 praktik/validasi_klasifikasi_nilai.py
 
 ## Refleksi
 
-Salah satu masukan tidak valid yang diuji adalah kehadiran kurang dari 80 persen. Meskipun nilai akhir tinggi, mahasiswa tetap tidak memenuhi syarat kehadiran. Program menangani kondisi tersebut dengan memeriksa kehadiran sebelum menentukan predikat.
+Masukan tidak valid yang semula terlewat adalah nilai ujian di luar rentang 0 sampai 100. Masukan tersebut kemudian ditangani dengan validasi rentang sebelum nilai akhir dihitung.
+
+Selain itu, program juga melakukan validasi tipe data menggunakan try-except ValueError agar masukan berupa teks yang bukan angka dapat ditolak dengan pesan yang sesuai.
+
+Pemeriksaan kehadiran juga dilakukan sebelum menentukan predikat. Jika kehadiran kurang dari 80%, maka mahasiswa dinyatakan tidak memenuhi syarat kehadiran.
