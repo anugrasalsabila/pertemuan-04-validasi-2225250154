@@ -2,7 +2,7 @@
 
 Nama: Intan Anugra Salsabila  
 NIM: 2225250154  
-Kelas: ...
+Kelas: 2F
 
 ## Tujuan
 
